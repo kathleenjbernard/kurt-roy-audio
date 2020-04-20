@@ -1,4 +1,4 @@
-/** EXTRA large screen**/ 
+/**EXTRA large screen**/ 
 
 @media only screen 
   and (min-device-width: 1024px) {
@@ -44,6 +44,7 @@ html {
   font-size: 1rem;
 }
 #about {
+  margin-top: 10vh;
   margin-left: 5vw;
   margin-right: 5vw;
 }
@@ -83,7 +84,7 @@ html {
 
 #photo-caption-kh {
   font-size: 80%;
-  align-text: right;
+  align-text: center;
   color: silver;
   text-align: right;
   padding-right: 2px;
@@ -161,9 +162,10 @@ nav div:hover {
   justify-items: center;
   margin-left: 15vw;
   margin-right: 15vw;
+  margin-bottom: 10vh;
 }
 #samples-text {
-  margin-top: 3rem;
+  margin-top: 10vh;
   margin-left: 10vw;
   margin-right: 10vw;
   
@@ -360,6 +362,7 @@ div h3 {
 
 #contact-container {
   display: block;
+  margin-top: 10vh;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -388,7 +391,7 @@ div h3 {
    font-size: 95%;
    text-align: center;
    padding: 1rem;
-   margin-top: 1rem;   
+   margin-top: 10vh;   
    margin-left: 15vw;
    margin-right: 15vw;
 }
@@ -465,19 +468,13 @@ html {
 }
 
 #photo-caption-jh {
-  align-text: right;
-  font-size: 80%;
-  grid-row: 2 / 3;
-  grid-column: 2 / 3;
-  color: silver;
-  text-align: right;
+  display: none;
 }
 
 #photo-caption-kh {
   font-size: 80%;
-  align-text: right;
   color: silver;
-  text-align: right;
+  text-align: center;
   padding-right: 2px;
 }
 
@@ -844,19 +841,13 @@ html {
 }
 
 #photo-caption-jh {
-  align-text: right;
-  font-size: 80%;
-  grid-row: 2 / 3;
-  grid-column: 2 / 3;
-  color: silver;
-  text-align: right;
+  display: none;
 }
 
 #photo-caption-kh {
   font-size: 80%;
-  align-text: right;
   color: silver;
-  text-align: right;
+  text-align: center;
   padding-right: 2px;
 }
 
@@ -1323,7 +1314,7 @@ nav div:hover {
 }
 
 #mobile-caption-jh {
-  text-align: right;
+  text-align: center;
   color: silver;
   font-size: 80%;
 }
