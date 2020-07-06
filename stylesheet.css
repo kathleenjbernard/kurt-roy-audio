@@ -96,7 +96,7 @@ html {
 
 
 #hero-image {
-      background-image:       url("https://res.cloudinary.com/dsldlqqsb/image/upload/v1582759107/DSC00010_resized_gvayvi.jpg");
+      background-image: url("https://res.cloudinary.com/dsldlqqsb/image/upload/v1582759107/DSC00010_resized_gvayvi.jpg");
       background-size: cover;
       background-position: center;
       text-align: center;
@@ -131,7 +131,7 @@ nav div:hover {
   color: pink;
 }
 
-#hero-name {
+h1 {
   justify-self: center;
   color: white;
   font-family: 'cedarville cursive';
@@ -142,13 +142,11 @@ nav div:hover {
   margin-bottom: -1.5rem;
   padding: 0;
 }
-
-#hero-name:hover {
+    
+h1:hover {
   text-shadow: 5px 5px 10px #ED1F6D;
   color: pink;
-}
-
-
+  }
 
 #samples-container {
   padding-left: 1rem;
@@ -545,14 +543,22 @@ nav div:hover {
   color: pink;
 }
 
-#hero-name {
+h1 {
   justify-self: center;
   color: white;
   font-family: 'cedarville cursive';
   font-weight: 100;
   text-shadow: 5px 5px 10px #FD1F6D;
-  font-size: 750%;
+  font-size: 1000%;
+  margin-top: 0;
+  margin-bottom: -1.5rem;
+  padding: 0;
 }
+    
+h1:hover {
+  text-shadow: 5px 5px 10px #ED1F6D;
+  color: pink;
+  }
 
 #samples-container {
   padding-left: 1rem;
@@ -931,14 +937,21 @@ nav div:hover {
   color: pink;
 }
 
-#hero-name {
+h1 {
   justify-self: center;
   color: white;
   font-family: 'cedarville cursive';
   font-weight: 100;
   text-shadow: 5px 5px 10px #FD1F6D;
   font-size: 750%;
+  margin-bottom: -1.5rem;
 }
+    
+h1:hover {
+  text-shadow: 5px 5px 10px #ED1F6D;
+  color: pink;
+  }    
+    
 
 #samples-container {
   padding-left: 1rem;
@@ -1017,10 +1030,6 @@ nav div:hover {
 
 .samples-media:hover {
   filter: opacity(50%);
-}
-
-#hero-name:hover {
-  color: pink;
 }
 
 #psuedo-nav p {
